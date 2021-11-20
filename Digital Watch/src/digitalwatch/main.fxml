@@ -1,0 +1,24 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:controller="digitalwatch.Controller"
+            xmlns:fx="http://javafx.com/fxml" >
+
+    <padding>
+        <Insets right="5" left="5" top="5" bottom="5" />
+    </padding>
+    <center >
+        <GridPane style="-fx-background-color:blue" stylesheets="@styles.css">
+            <TextArea fx:id="textArea"  GridPane.rowIndex="0"
+                      GridPane.columnIndex="0" editable="false" >
+                <font>
+                    <Font size="77" />
+                </font>
+            </TextArea>
+        </GridPane>
+
+    </center>
+
+</BorderPane>
